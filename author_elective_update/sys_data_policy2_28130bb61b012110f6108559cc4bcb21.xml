@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>false</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions table="x_58872_needit_needit">state=8^EQ<item display_value="Withdrawn" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_58872_needit_needit</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>NeedIt State set to Withdrawn</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-20 08:24:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28130bb61b012110f6108559cc4bcb21</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>NeedIt State set to Withdrawn</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_data_policy2_28130bb61b012110f6108559cc4bcb21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-20 08:46:32</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b0663c174f81de4028b999701310c752</instance_id>
+        <instance_name>dev17436</instance_name>
+        <name>sys_data_policy2_28130bb61b012110f6108559cc4bcb21</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>false</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions table="x_58872_needit_needit">state=8^EQ<item display_value="Withdrawn" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></conditions><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_58872_needit_needit</model_table><reverse_if_false>true</reverse_if_false><short_description>NeedIt State set to Withdrawn</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-20 08:24:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>28130bb61b012110f6108559cc4bcb21</sys_id><sys_mod_count>3</sys_mod_count><sys_name>NeedIt State set to Withdrawn</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_data_policy2_28130bb61b012110f6108559cc4bcb21</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-20 08:46:32</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>403070155</payload_hash>
+        <record_name>NeedIt State set to Withdrawn</record_name>
+        <reverted_from/>
+        <source>6f33fb831b48a110f6108559cc4bcb5d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-20 08:46:32</sys_created_on>
+        <sys_id>ae488ffa1b012110f6108559cc4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1866e00d0a80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-20 08:46:32</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>66488ffab5012110953ed47fb278a57a</update_guid>
+        <update_guid_history>66488ffab5012110953ed47fb278a57a:403070155,15e5c37a2a012110e0b3b2c9bb5f9b05:-1686569236,c9c4433af1012110470d75818da48d95:427587047,30434736d2012110c159eab72059c06d:-1152695981</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-20 08:47:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>803f6af644a14aa9bb98c7b8833956a9</sys_id>
+        <sys_metadata>28130bb61b012110f6108559cc4bcb21</sys_metadata>
+        <sys_name>NeedIt State set to Withdrawn</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">c33c7f4f1b48a110f6108559cc4bcb77</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_28130bb61b012110f6108559cc4bcb21</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_28130bb61b012110f6108559cc4bcb21">ae488ffa1b012110f6108559cc4bcb7a</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
